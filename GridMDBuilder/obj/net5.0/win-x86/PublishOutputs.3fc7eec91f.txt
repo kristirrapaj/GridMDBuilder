@@ -1,0 +1,10 @@
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\GridMDBuilder.pdb
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\clrcompression.dll
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\clrjit.dll
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\coreclr.dll
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\mscordaccore.dll
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\sni.dll
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\GridConfig.Interface.pdb
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\GridConfig.Interface.dll.config
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\DataStore.Factory.pdb
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\GridMDBuilder\bin\net5.0\win-x86\publish\GridMDBuilder.exe

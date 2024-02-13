@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\GridConfig.Interface\GridConfig.Interface.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sister.DataStore.Interface" Version="1.*" />
+		<PackageReference Include="Sister.DataStore.SQLServer" Version="1.*" />
+		<PackageReference Include="Sister.Infrastructure.STLogging.Log4Net" Version="1.*" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DataStore.Base">
+      <HintPath>..\..\..\ServicesNetCore\SensorsWSCore\bin\Debug\net5.0\DataStore.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="DataStore.Factory">
+      <HintPath>..\..\..\DataStore\DataStore.Factory\bin\Debug\net5.0\DataStore.Factory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Release\" />
+  </ItemGroup>
+
+</Project>

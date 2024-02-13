@@ -1,0 +1,6 @@
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\1.0.0\GridMDBuilder.pdb
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\1.0.0\sni.dll
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\1.0.0\GridConfig.Interface.pdb
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\1.0.0\GridConfig.Interface.dll.config
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\1.0.0\DataStore.Factory.pdb
+C:\Users\K.Rrapaj\Desktop\PROJECTS\SWMS\STMapClient\src-core\Server\GridConfig\GridMDBuilder\1.0.0\GridMDBuilder.exe
