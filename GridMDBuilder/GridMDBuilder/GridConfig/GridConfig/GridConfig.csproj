@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup Label="Globals">
+		<SccProjectName>%24/STMapClient/src-core/Server/GridConfig/GridConfig</SccProjectName>
+		<SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+		<SccAuxPath>http://vmtfs:8080/tfs/defaultteamprojectcollection</SccAuxPath>
+		<SccLocalPath>.</SccLocalPath>
+		<Configurations>Debug;Release;NuGetPublish</Configurations>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UseWindowsForms>false</UseWindowsForms>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<RootNamespace>GridConfig</RootNamespace>
+		<AssemblyName>GridConfig</AssemblyName>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<Version>1.0.0</Version>
+		<Authors>Sistemi Territoriali</Authors>
+		<PackageId>Sister.GridConfig</PackageId>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Sister.DataAccess" Version="1.*" />
+		<PackageReference Include="Sister.DataAccess.Infrastructure" Version="1.*" />
+		<PackageReference Include="Sister.DataAccess.Manager" Version="1.*" />
+		<PackageReference Include="Sister.DataFactory" Version="1.*" />
+		<PackageReference Include="Sister.DomainManager" Version="1.*" />
+		<PackageReference Include="Sister.SubTypeManager.Interface" Version="1.*" />
+		<ProjectReference Include="..\..\ConfigManagement\ConfigManagement.Interface\ConfigManagement.Interface.csproj" />
+		<ProjectReference Include="..\..\Infrastructure\Infrastructure.DataUtils\Infrastructure.DataUtils.csproj" />
+		<ProjectReference Include="..\..\MapConfig\MapConfig.Interface\MapConfig.Interface.csproj" />
+		<ProjectReference Include="..\GridConfig.Interface\GridConfig.Interface.csproj" />
+	</ItemGroup>
+</Project>

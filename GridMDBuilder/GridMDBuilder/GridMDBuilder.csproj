@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Tools.Interface">
+        <HintPath>..\..\..\Downloads\LIB\Nuova cartella (6)\Tools.Interface.dll</HintPath>
+      </Reference>
+	  <Reference Include="\\vmtfs\SisterNuGet" />
+    </ItemGroup>
+
+</Project>

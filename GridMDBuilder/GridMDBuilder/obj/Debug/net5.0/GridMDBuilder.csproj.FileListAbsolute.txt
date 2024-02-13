@@ -1,0 +1,5 @@
+C:\Users\K.Rrapaj\GridMDBuilder\GridMDBuilder\GridMDBuilder\obj\Debug\net5.0\GridMDBuilder.csproj.AssemblyReference.cache
+C:\Users\K.Rrapaj\GridMDBuilder\GridMDBuilder\GridMDBuilder\obj\Debug\net5.0\GridMDBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\K.Rrapaj\GridMDBuilder\GridMDBuilder\GridMDBuilder\obj\Debug\net5.0\GridMDBuilder.AssemblyInfoInputs.cache
+C:\Users\K.Rrapaj\GridMDBuilder\GridMDBuilder\GridMDBuilder\obj\Debug\net5.0\GridMDBuilder.AssemblyInfo.cs
+C:\Users\K.Rrapaj\GridMDBuilder\GridMDBuilder\GridMDBuilder\obj\Debug\net5.0\GridMDBuilder.csproj.CoreCompileInputs.cache

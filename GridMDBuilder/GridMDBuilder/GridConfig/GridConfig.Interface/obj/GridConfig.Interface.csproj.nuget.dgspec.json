@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj",
+        "projectName": "Sister.GridConfig.Interface",
+        "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj",
+        "packagesPath": "C:\\Users\\K.Rrapaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\K.Rrapaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\vmtfs\\SisterNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Sister.DataAccess.Infrastructure": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.InfrastructureData.DTO": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

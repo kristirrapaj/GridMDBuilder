@@ -1,0 +1,1096 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GridConfig/1.0.0": {
+        "dependencies": {
+          "Sister.ConfigManagement.Interface": "1.0.0",
+          "Sister.DataAccess": "1.0.3",
+          "Sister.DataAccess.Infrastructure": "1.0.4",
+          "Sister.DataAccess.Manager": "1.0.2",
+          "Sister.DataFactory": "1.0.2",
+          "Sister.DomainManager": "1.0.2",
+          "Sister.GridConfig.Interface": "1.0.0",
+          "Sister.Infrastructure.DataUtils": "1.0.0",
+          "Sister.MapConfig.Interface": "1.0.0",
+          "Sister.SubTypeManager.Interface": "1.0.2",
+          "ConfigManagement.Interface": "1.0.0.0",
+          "GridConfig.Interface": "1.0.0.0",
+          "Infrastructure.DataUtils": "1.0.0.0",
+          "MapConfig.Interface": "1.0.0.0",
+          "MDReport.Interface": "1.0.0.0",
+          "TimeSeriesDataModel": "1.0.0.0"
+        },
+        "runtime": {
+          "GridConfig.dll": {}
+        }
+      },
+      "GeoAPI.CoordinateSystems/1.7.5": {
+        "dependencies": {
+          "GeoAPI.Core": "1.7.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GeoAPI.CoordinateSystems.dll": {
+            "assemblyVersion": "1.7.5.0",
+            "fileVersion": "1.7.5.0"
+          }
+        }
+      },
+      "GeoAPI.Core/1.7.5": {
+        "runtime": {
+          "lib/netstandard2.0/GeoAPI.dll": {
+            "assemblyVersion": "1.7.5.0",
+            "fileVersion": "1.7.5.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "NetTopologySuite/1.15.3": {
+        "dependencies": {
+          "NetTopologySuite.CoordinateSystems": "1.15.3",
+          "NetTopologySuite.Core": "1.15.3"
+        }
+      },
+      "NetTopologySuite.CoordinateSystems/1.15.3": {
+        "dependencies": {
+          "GeoAPI.CoordinateSystems": "1.7.5"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/NetTopologySuite.CoordinateSystems.dll": {
+            "assemblyVersion": "1.15.3.0",
+            "fileVersion": "1.15.3.0"
+          }
+        }
+      },
+      "NetTopologySuite.Core/1.15.3": {
+        "dependencies": {
+          "GeoAPI.Core": "1.7.5"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/NetTopologySuite.dll": {
+            "assemblyVersion": "1.15.3.0",
+            "fileVersion": "1.15.3.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "ProjNET4GeoAPI/1.4.1": {
+        "dependencies": {
+          "GeoAPI.CoordinateSystems": "1.7.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ProjNET.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          }
+        }
+      },
+      "Sister.DataAccess/1.0.3": {
+        "dependencies": {
+          "Sister.DataAccess.Interface": "1.0.2",
+          "Sister.DataAccessUtils.Interface": "1.0.2",
+          "Sister.FlagsManager": "1.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/DataAccess.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Sister.DataAccess.Infrastructure/1.0.4": {
+        "dependencies": {
+          "NetTopologySuite": "1.15.3",
+          "Newtonsoft.Json": "13.0.1",
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.Infrastructure.GeoUtils": "1.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/DataAccess.Infrastructure.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Sister.DataAccess.Interface/1.0.2": {
+        "dependencies": {
+          "Sister.DataAccess.Infrastructure": "1.0.4",
+          "Sister.DataAccessUtils.Interface": "1.0.2",
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.FlagsManager.Interface": "1.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/DataAccess.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.DataAccess.Manager/1.0.2": {
+        "dependencies": {
+          "Sister.DataAccess": "1.0.3"
+        },
+        "runtime": {
+          "lib/net5.0/DataAccessManager.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.DataAccessUtils.Interface/1.0.2": {
+        "runtime": {
+          "lib/net5.0/DataAccessUtils.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.DataFactory/1.0.2": {
+        "dependencies": {
+          "Sister.DataAccess.Manager": "1.0.2",
+          "Sister.DataAccessUtils.Interface": "1.0.2",
+          "Sister.DataStore.Factory": "1.0.6",
+          "Sister.DomainManager": "1.0.2",
+          "Sister.FlagsManager.Interface": "1.0.2",
+          "Sister.LockDataManager": "1.0.4",
+          "Sister.LockManager": "1.0.2",
+          "Sister.Session": "1.0.2",
+          "Sister.SubTypeManager": "1.0.2",
+          "Sister.TableAliasManager": "1.0.2",
+          "Sister.TaskManager": "1.0.2",
+          "Sister.VarMetadataManager": "1.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/DataFactory.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.DataStore.Base/1.0.2": {
+        "dependencies": {
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.Infrastructure.STLogging.Factory": "1.0.8",
+          "Sister.Infrastructure.Utils": "1.0.5"
+        },
+        "runtime": {
+          "lib/net5.0/DataStore.Base.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.DataStore.Factory/1.0.6": {
+        "dependencies": {
+          "Sister.DataStore.Interface": "1.0.7",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/DataStore.Factory.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Sister.DataStore.Interface/1.0.7": {
+        "dependencies": {
+          "NetTopologySuite": "1.15.3"
+        },
+        "runtime": {
+          "lib/net5.0/DataStore.Interface.dll": {
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.7.0"
+          }
+        }
+      },
+      "Sister.DomainManager/1.0.2": {
+        "dependencies": {
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.DomainManager.Interface": "1.0.2",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/DomainManager.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.DomainManager.Interface/1.0.2": {
+        "runtime": {
+          "lib/net5.0/DomainManager.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.FlagsManager/1.0.2": {
+        "dependencies": {
+          "Sister.DataStore.Base": "1.0.2",
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.FlagsManager.Interface": "1.0.2",
+          "Sister.Infrastructure.Utils": "1.0.5",
+          "Sister.Session.Interface": "1.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/FlagsManager.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.FlagsManager.Interface/1.0.2": {
+        "dependencies": {
+          "Sister.DataAccess.Infrastructure": "1.0.4",
+          "Sister.DataStore.Interface": "1.0.7"
+        },
+        "runtime": {
+          "lib/net5.0/FlagsManager.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.Infrastructure.GeoUtils/1.0.3": {
+        "dependencies": {
+          "NetTopologySuite": "1.15.3",
+          "ProjNET4GeoAPI": "1.4.1",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Infrastructure.GeoUtils.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Sister.Infrastructure.STLogging.Factory/1.0.8": {
+        "runtime": {
+          "lib/net5.0/Infrastructure.STLogging.Factory.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          },
+          "lib/net5.0/Infrastructure.STLogging.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          },
+          "lib/net5.0/Infrastructure.STLogging.Log4Net.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.Infrastructure.Utils/1.0.5": {
+        "dependencies": {
+          "NetTopologySuite": "1.15.3",
+          "Sister.InfrastructureData.DTO": "1.0.2",
+          "System.Configuration.ConfigurationManager": "6.0.1",
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Infrastructure.Utils.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "Sister.InfrastructureData.DTO/1.0.2": {
+        "dependencies": {
+          "Sister.RightManager.Interface": "1.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/InfrastructureData.DTO.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.LockDataManager/1.0.4": {
+        "dependencies": {
+          "Sister.InfrastructureData.DTO": "1.0.2",
+          "Sister.LockDataManager.Interface": "1.0.3",
+          "Sister.Session.Interface": "1.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/LockDataManager.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Sister.LockDataManager.Interface/1.0.3": {
+        "dependencies": {
+          "Sister.DataAccess.Infrastructure": "1.0.4"
+        },
+        "runtime": {
+          "lib/net5.0/LockDataManager.Interface.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Sister.LockManager/1.0.2": {
+        "dependencies": {
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.Infrastructure.STLogging.Factory": "1.0.8",
+          "Sister.LockManager.Interface": "1.0.2",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/LockManager.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.LockManager.Interface/1.0.2": {
+        "runtime": {
+          "lib/net5.0/LockManager.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.RightManager.Interface/1.0.2": {
+        "runtime": {
+          "lib/net5.0/RightsManager.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.Session/1.0.2": {
+        "dependencies": {
+          "Sister.DataAccess": "1.0.3",
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.Session.Interface": "1.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/Session.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.Session.Interface/1.0.2": {
+        "runtime": {
+          "lib/net5.0/Session.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.SubTypeManager/1.0.2": {
+        "dependencies": {
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.SubTypeManager.Interface": "1.0.2",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/SubTypeManager.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.SubTypeManager.Interface/1.0.2": {
+        "runtime": {
+          "lib/net5.0/SubTypeManager.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.TableAliasManager/1.0.2": {
+        "dependencies": {
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.TableAliasManager.Interface": "1.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/TableAliasManager.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.TableAliasManager.Interface/1.0.2": {
+        "runtime": {
+          "lib/net5.0/TableAliasManager.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.TaskManager/1.0.2": {
+        "dependencies": {
+          "Sister.DataStore.Interface": "1.0.7",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/TaskManager.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.VarMetadata.Interface/1.0.2": {
+        "runtime": {
+          "lib/net5.0/VarMetadata.Interface.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Sister.VarMetadataManager/1.0.2": {
+        "dependencies": {
+          "Sister.DataStore.Interface": "1.0.7",
+          "Sister.VarMetadata.Interface": "1.0.2",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/VarMetadataManager.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.1": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "6.0.0",
+          "System.Security.Permissions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.922.41905"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          },
+          "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Security.AccessControl/6.0.0": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/6.0.0": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Security.Permissions/6.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0",
+          "System.Windows.Extensions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "System.Windows.Extensions/6.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Windows.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.1/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Sister.ConfigManagement.Interface/1.0.0": {
+        "runtime": {
+          "ConfigManagement.Interface.dll": {}
+        }
+      },
+      "Sister.GridConfig.Interface/1.0.0": {
+        "dependencies": {
+          "Sister.DataAccess.Infrastructure": "1.0.4",
+          "Sister.InfrastructureData.DTO": "1.0.2"
+        },
+        "runtime": {
+          "GridConfig.Interface.dll": {}
+        }
+      },
+      "Sister.Infrastructure.DataUtils/1.0.0": {
+        "dependencies": {
+          "Sister.ConfigManagement.Interface": "1.0.0",
+          "Sister.DataAccess": "1.0.3",
+          "Sister.DataAccessUtils.Interface": "1.0.2",
+          "Sister.DataFactory": "1.0.2",
+          "Sister.DataStore.Factory": "1.0.6",
+          "Sister.DomainManager": "1.0.2",
+          "Sister.GridConfig.Interface": "1.0.0",
+          "Sister.Infrastructure.GeoUtils": "1.0.3",
+          "Sister.Infrastructure.Utils": "1.0.5",
+          "Sister.InfrastructureData.DTO": "1.0.2",
+          "Sister.MDReport.Interface": "1.0.0",
+          "Sister.MapConfig.Interface": "1.0.0",
+          "Sister.SubTypeManager": "1.0.2"
+        },
+        "runtime": {
+          "Infrastructure.DataUtils.dll": {}
+        }
+      },
+      "Sister.MapConfig.Interface/1.0.0": {
+        "dependencies": {
+          "Sister.ConfigManagement.Interface": "1.0.0"
+        },
+        "runtime": {
+          "MapConfig.Interface.dll": {}
+        }
+      },
+      "Sister.MDReport.Interface/1.0.0": {
+        "dependencies": {
+          "Sister.TimeSeriesDataModel": "1.0.0"
+        },
+        "runtime": {
+          "MDReport.Interface.dll": {}
+        }
+      },
+      "Sister.TimeSeriesDataModel/1.0.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "TimeSeriesDataModel.dll": {}
+        }
+      },
+      "ConfigManagement.Interface/1.0.0.0": {
+        "runtime": {
+          "ConfigManagement.Interface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GridConfig.Interface/1.0.0.0": {
+        "runtime": {
+          "GridConfig.Interface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Infrastructure.DataUtils/1.0.0.0": {
+        "runtime": {
+          "Infrastructure.DataUtils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MapConfig.Interface/1.0.0.0": {
+        "runtime": {
+          "MapConfig.Interface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MDReport.Interface/1.0.0.0": {
+        "runtime": {
+          "MDReport.Interface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TimeSeriesDataModel/1.0.0.0": {
+        "runtime": {
+          "TimeSeriesDataModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GridConfig/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeoAPI.CoordinateSystems/1.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JBcvkeQFjCW9NTfkII5WiJNmnv0ZtYA/VTVljbIqDFWBJ8kHwu2UHd2MVStD/VVHVnLoyNcDIapsuTENdlyF3g==",
+      "path": "geoapi.coordinatesystems/1.7.5",
+      "hashPath": "geoapi.coordinatesystems.1.7.5.nupkg.sha512"
+    },
+    "GeoAPI.Core/1.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dy/YkgZ1szgx+xbVWqMi+4++Fm6v3szbVdei1LKPRZ3meSvgNSMZxqhar5IAeaTj5LcUHLtLGdfyUtkjnYbg3A==",
+      "path": "geoapi.core/1.7.5",
+      "hashPath": "geoapi.core.1.7.5.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "NetTopologySuite/1.15.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-al5K/4tBNykW8CNnqpBBF8z2gr/3XvnURG42eX03kkbkRnb3d8kzbnxWBhir6SrmcR2KijDyeuvJJbSpdnngWQ==",
+      "path": "nettopologysuite/1.15.3",
+      "hashPath": "nettopologysuite.1.15.3.nupkg.sha512"
+    },
+    "NetTopologySuite.CoordinateSystems/1.15.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vBofdqHOWUFkd3axF1p9BNLZ+5Cw7uqcLZun5bfnALkNJ0vZ8QN9pLOa9bFUulrWKyb1njQGke3nErbY3hpWlw==",
+      "path": "nettopologysuite.coordinatesystems/1.15.3",
+      "hashPath": "nettopologysuite.coordinatesystems.1.15.3.nupkg.sha512"
+    },
+    "NetTopologySuite.Core/1.15.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PvO7lSWjzaazm1m9fYBZkxAtXSkF+t9jneGyyMxKQ/4lso2RzZWrBO0KWeA5Zp8IWoI1Ar/jTodYmC5Nbwo4xw==",
+      "path": "nettopologysuite.core/1.15.3",
+      "hashPath": "nettopologysuite.core.1.15.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "ProjNET4GeoAPI/1.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gw1fW7vQpGB23XZJepG9Cvo2bjpPKuddmsb8+Bwap6KYJdEYWwqHIr+6YP3e391h0ksf6t8mzvj3FA0U/7hUfA==",
+      "path": "projnet4geoapi/1.4.1",
+      "hashPath": "projnet4geoapi.1.4.1.nupkg.sha512"
+    },
+    "Sister.DataAccess/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OsY10yp9GryS6UKeGzbx1BkfIDjUuTS8C4IKq6tzBlViAWmcuIn3YdpwM9Uy4WwFptkC1O4KLMWQdVCWaJTJMA==",
+      "path": "sister.dataaccess/1.0.3",
+      "hashPath": "sister.dataaccess.1.0.3.nupkg.sha512"
+    },
+    "Sister.DataAccess.Infrastructure/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RIqIofvP5fevQYS4tUgGWxgTgyYTVVQ9ZkyU7icaozq+w/7IKuv7s3sK4Kfjdrf7PnRuI4V5hl5l1pD76r7r2w==",
+      "path": "sister.dataaccess.infrastructure/1.0.4",
+      "hashPath": "sister.dataaccess.infrastructure.1.0.4.nupkg.sha512"
+    },
+    "Sister.DataAccess.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tl4PhaW5OQ6pwsB9V5TG6IoahVmMBVSKpzfpnglVBVtY/EasFKtnbAYEAjav8L+VXLEaK8DqLln4LDNnRiTyUQ==",
+      "path": "sister.dataaccess.interface/1.0.2",
+      "hashPath": "sister.dataaccess.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.DataAccess.Manager/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hngDNbM3uj8C/eNVcThfc3Dw1GSF/EUQS0QRTVxBTPDj9JlhCrcT5PbM6Sq6fQoiVB5KHgporCYT51yZsuNU1A==",
+      "path": "sister.dataaccess.manager/1.0.2",
+      "hashPath": "sister.dataaccess.manager.1.0.2.nupkg.sha512"
+    },
+    "Sister.DataAccessUtils.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KuXvWUVpOCxmby7KRsB+E7lrAReMWF1E1ctL/yetWPs9uVYIF+NwZUaboaHs/8/8vwYkRYnGUp3OTgJ4X3/06g==",
+      "path": "sister.dataaccessutils.interface/1.0.2",
+      "hashPath": "sister.dataaccessutils.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.DataFactory/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zDbcAudWY4O9cpX3a0Z9Xn4GscaZvgrUWVZ5rGlzlH+guAaYj6EGbvixry5U41UamlnTp4fPdwiCbdoUx3O6ug==",
+      "path": "sister.datafactory/1.0.2",
+      "hashPath": "sister.datafactory.1.0.2.nupkg.sha512"
+    },
+    "Sister.DataStore.Base/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y3DB5GCAW1c3vIM2eOl+fjFeGIYPocgka6Dp7caLd64H4IN1KoXeRxx77A7gBzfF8dTQ68hPTwiil95kQLJQPg==",
+      "path": "sister.datastore.base/1.0.2",
+      "hashPath": "sister.datastore.base.1.0.2.nupkg.sha512"
+    },
+    "Sister.DataStore.Factory/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q+uVJj4GbnZC7a8ArvBSgGKS7/6A8rS7XxceYjVS1d+TLAViEfG07OGzhb1y1dRcI6ADqHzA4KBqgMLdKZ8mjA==",
+      "path": "sister.datastore.factory/1.0.6",
+      "hashPath": "sister.datastore.factory.1.0.6.nupkg.sha512"
+    },
+    "Sister.DataStore.Interface/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4AlCZ541Hz8T8mEM5z1u3nD7CLXUbGBhn2hT8a0fpVuhHCw6UWCXYuHs0Y+4hBOjgEqIbFsQ3mh6tuWFGv3gsw==",
+      "path": "sister.datastore.interface/1.0.7",
+      "hashPath": "sister.datastore.interface.1.0.7.nupkg.sha512"
+    },
+    "Sister.DomainManager/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9IIteo/f3sV+jBzvPovQWrKssGnr14XIJl4lEGq8c7IHT91uCHYND4qQCBpzmjXM9RRtMRy95ggUEvrolXDAZA==",
+      "path": "sister.domainmanager/1.0.2",
+      "hashPath": "sister.domainmanager.1.0.2.nupkg.sha512"
+    },
+    "Sister.DomainManager.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MFeLSBgnSA0r5vBI06/i4hM/q3h5q2Wj3HSKjkU1v+qGxNCfk1tsHQ8drpqEC3Ck3+saP3reGGOV/n8Z1RTX7w==",
+      "path": "sister.domainmanager.interface/1.0.2",
+      "hashPath": "sister.domainmanager.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.FlagsManager/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HJOlos6q8AQNPEJf9ttHrfMwRDFYgB+2HjIIUKf6r3MZH7+umqRfteNS+f3x91EXdk8ZMx0m+1rKlFQn5Xs4FQ==",
+      "path": "sister.flagsmanager/1.0.2",
+      "hashPath": "sister.flagsmanager.1.0.2.nupkg.sha512"
+    },
+    "Sister.FlagsManager.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkDgCyyITVbzanmaVZY2ruhWPKG+7Ikgqhmx2L1tO3ijl0amoSHJnkI/ebiynSgTT6J0iDoD3thj/VGFeBwANQ==",
+      "path": "sister.flagsmanager.interface/1.0.2",
+      "hashPath": "sister.flagsmanager.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.Infrastructure.GeoUtils/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1dkGb0PH97NzIK/8vWypPxZAafBAh0Cn0qeZdHU/5n6+cpMVQpoVgHaAk4ZABGYUBDLliHIlPP6G92acpjY2YA==",
+      "path": "sister.infrastructure.geoutils/1.0.3",
+      "hashPath": "sister.infrastructure.geoutils.1.0.3.nupkg.sha512"
+    },
+    "Sister.Infrastructure.STLogging.Factory/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MvH6Fqk3DkvaAmnpm+teCjT75N9viicDUYy4Be8KLCvaPrfn+ar1ax3rNr8tjlNAcXQvieCLAkcwlD9IbRAsWA==",
+      "path": "sister.infrastructure.stlogging.factory/1.0.8",
+      "hashPath": "sister.infrastructure.stlogging.factory.1.0.8.nupkg.sha512"
+    },
+    "Sister.Infrastructure.Utils/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1HfAmL1JW6IFnAu4dpvn2nbHOzE38Jt2yAiaXVHzz9+fuwNArqeo/VG4eNjtCpxaNGXhyImPbl5BepLbslFo4w==",
+      "path": "sister.infrastructure.utils/1.0.5",
+      "hashPath": "sister.infrastructure.utils.1.0.5.nupkg.sha512"
+    },
+    "Sister.InfrastructureData.DTO/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BAljqjhYbNJavgx62xCFMLwiNm8I8b8pRgZERi6i3KsM/7cyP4pLkfRvl1IWMwSlaSB0uS2lBrxvY9dj/pm3wg==",
+      "path": "sister.infrastructuredata.dto/1.0.2",
+      "hashPath": "sister.infrastructuredata.dto.1.0.2.nupkg.sha512"
+    },
+    "Sister.LockDataManager/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gV64yzPy2TSA4g4Ng6c2OqELFJEr6txNKcmNu7rcAJOJu6ndCOSmovrcFT9IMJdXkq9J5e+G1WtkFIOozg4KAQ==",
+      "path": "sister.lockdatamanager/1.0.4",
+      "hashPath": "sister.lockdatamanager.1.0.4.nupkg.sha512"
+    },
+    "Sister.LockDataManager.Interface/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ReqYi+ui+Z9Z/vurZbGCGvZkwl982jBx89FtwkzKMoEgf3viEo8mebLim4qmRUM1gCtoYnHOiQvZqRrY7cUZHQ==",
+      "path": "sister.lockdatamanager.interface/1.0.3",
+      "hashPath": "sister.lockdatamanager.interface.1.0.3.nupkg.sha512"
+    },
+    "Sister.LockManager/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xBFDeujzuRGJnsdSCl8Qkunqaqf+yETsAcIPJ7T0/ay5cIhzgwbTqowLvd3uUioC7UHtOOOmyjliAZLrwpiXKA==",
+      "path": "sister.lockmanager/1.0.2",
+      "hashPath": "sister.lockmanager.1.0.2.nupkg.sha512"
+    },
+    "Sister.LockManager.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gxm4C0v3wC3aSiK6Wxe2qWnQoBMjBuPWwLdYANJKaDrfbPsKchzuKCxxXHfwPivY+DmmaaWX22QMUWIdfW3xhw==",
+      "path": "sister.lockmanager.interface/1.0.2",
+      "hashPath": "sister.lockmanager.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.RightManager.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9ET8HJ+xYDdzOh7k1qxWm8iaCrki41rnF5WhyDUs4P30k9OnCYjsIaP7piyQJJv+PPnpA59VfgmkrnUeNokR3g==",
+      "path": "sister.rightmanager.interface/1.0.2",
+      "hashPath": "sister.rightmanager.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.Session/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x5MgvRrX3PBMfO8bgtBiFUsipxmCtpxpdGcAopmY4m9h/2NJ5L+lUb1LNGOy6a5YK+R75VCAOOFEO6o+9WRMqw==",
+      "path": "sister.session/1.0.2",
+      "hashPath": "sister.session.1.0.2.nupkg.sha512"
+    },
+    "Sister.Session.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dGQtgUw40pA10i9uwtYyAPZnz2rz9ckut3t8mdkUSvNjworhuWWWXA5JgI9zGcahKVkXuqNUmgmKjvUz53ObTw==",
+      "path": "sister.session.interface/1.0.2",
+      "hashPath": "sister.session.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.SubTypeManager/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JWVRLrtLOt4t5GKkOA40Yp31MfN6BrAcG2+6iaMtlXslRyTLgCRXEBxV98MxZahQ3+SYpxCIF4SxOkmSBt22/g==",
+      "path": "sister.subtypemanager/1.0.2",
+      "hashPath": "sister.subtypemanager.1.0.2.nupkg.sha512"
+    },
+    "Sister.SubTypeManager.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTwanSWX+jNmhSBjOZ/LFwDWeATU1rJpdtwXBqOH9l+cK4Dopy7354uWLQwD7R8HMvhqDmkJMWN+CQ4YXRF9/A==",
+      "path": "sister.subtypemanager.interface/1.0.2",
+      "hashPath": "sister.subtypemanager.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.TableAliasManager/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fr172ZdAGbMQXqiueIrBxuHOFqeuVa3cRZhQYyZ/XqLMxOZC3rISgNTzO4QVV94eO5LG3CitZ2PYdj60XDwqIA==",
+      "path": "sister.tablealiasmanager/1.0.2",
+      "hashPath": "sister.tablealiasmanager.1.0.2.nupkg.sha512"
+    },
+    "Sister.TableAliasManager.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5F23DmI/HwXODzHc5T16LjxHCviHTfaQ1a1T3kkyMzxuNzWMUs2q84kKiU8teDiEO2bOrwT+xtfokOfgyAJUpg==",
+      "path": "sister.tablealiasmanager.interface/1.0.2",
+      "hashPath": "sister.tablealiasmanager.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.TaskManager/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Egu91ZdhOrjGchgfNMlI3MkvwpczrlbmVbJeJZfjHrGyEermrGutP6csVW5BGBM354woVSs/KE/qt2CbHqwTHw==",
+      "path": "sister.taskmanager/1.0.2",
+      "hashPath": "sister.taskmanager.1.0.2.nupkg.sha512"
+    },
+    "Sister.VarMetadata.Interface/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IlQIbCYNspwyCgDa15yPg3/DlkLCy4O02SxG8jXZ+UWeplKF7JHymIN+pp7hSAjYL7q79MSj3vZuSQyD4mFPHQ==",
+      "path": "sister.varmetadata.interface/1.0.2",
+      "hashPath": "sister.varmetadata.interface.1.0.2.nupkg.sha512"
+    },
+    "Sister.VarMetadataManager/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vf8lNtrk9EZuAPBoCveXtXXIT94JceW7ADDHfURPvk9HRthe2rZRfuah4PAhLGotrcPvtPqU//L/a9dzSU1dog==",
+      "path": "sister.varmetadatamanager/1.0.2",
+      "hashPath": "sister.varmetadatamanager.1.0.2.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jXw9MlUu/kRfEU0WyTptAVueupqIeE3/rl0EZDMlf8pcvJnitQ8HeVEp69rZdaStXwTV72boi/Bhw8lOeO+U2w==",
+      "path": "system.configuration.configurationmanager/6.0.1",
+      "hashPath": "system.configuration.configurationmanager.6.0.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Security.AccessControl/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
+      "path": "system.security.accesscontrol/6.0.0",
+      "hashPath": "system.security.accesscontrol.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rp1gMNEZpvx9vP0JW0oHLxlf8oSiQgtno77Y4PLUBjSiDYoD77Y8uXHr1Ea5XG4/pIKhqAdxZ8v8OTUtqo9PeQ==",
+      "path": "system.security.cryptography.protecteddata/6.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/uuc7AklkDoxmcJ7LGkyX1CcSviZuLCa4jg3PekfJ7SU0niF0IVTXwUiNVP9DSpzou2PpxJ+eNY2IfDM90ZCg==",
+      "path": "system.security.permissions/6.0.0",
+      "hashPath": "system.security.permissions.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
+      "path": "system.windows.extensions/6.0.0",
+      "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "Sister.ConfigManagement.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sister.GridConfig.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sister.Infrastructure.DataUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sister.MapConfig.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sister.MDReport.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sister.TimeSeriesDataModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConfigManagement.Interface/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GridConfig.Interface/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.DataUtils/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MapConfig.Interface/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MDReport.Interface/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TimeSeriesDataModel/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig\\GridConfig.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj",
+        "projectName": "Sister.ConfigManagement.Interface",
+        "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj",
+        "packagesPath": "C:\\Users\\K.Rrapaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\K.Rrapaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\vmtfs\\SisterNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj",
+        "projectName": "Sister.GridConfig.Interface",
+        "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj",
+        "packagesPath": "C:\\Users\\K.Rrapaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\K.Rrapaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\vmtfs\\SisterNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Sister.DataAccess.Infrastructure": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.InfrastructureData.DTO": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig\\GridConfig.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig\\GridConfig.csproj",
+        "projectName": "Sister.GridConfig",
+        "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig\\GridConfig.csproj",
+        "packagesPath": "C:\\Users\\K.Rrapaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\K.Rrapaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\vmtfs\\SisterNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj"
+              },
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj"
+              },
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\Infrastructure\\Infrastructure.DataUtils\\Infrastructure.DataUtils.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\Infrastructure\\Infrastructure.DataUtils\\Infrastructure.DataUtils.csproj"
+              },
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MapConfig\\MapConfig.Interface\\MapConfig.Interface.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MapConfig\\MapConfig.Interface\\MapConfig.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Sister.DataAccess": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.DataAccess.Infrastructure": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.DataAccess.Manager": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.DataFactory": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.DomainManager": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.SubTypeManager.Interface": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\Infrastructure\\Infrastructure.DataUtils\\Infrastructure.DataUtils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\Infrastructure\\Infrastructure.DataUtils\\Infrastructure.DataUtils.csproj",
+        "projectName": "Sister.Infrastructure.DataUtils",
+        "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\Infrastructure\\Infrastructure.DataUtils\\Infrastructure.DataUtils.csproj",
+        "packagesPath": "C:\\Users\\K.Rrapaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\Infrastructure\\Infrastructure.DataUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\K.Rrapaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\vmtfs\\SisterNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj"
+              },
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\GridConfig\\GridConfig.Interface\\GridConfig.Interface.csproj"
+              },
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MapConfig\\MapConfig.Interface\\MapConfig.Interface.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MapConfig\\MapConfig.Interface\\MapConfig.Interface.csproj"
+              },
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MDReport\\MDReport.Interface\\MDReport.Interface.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MDReport\\MDReport.Interface\\MDReport.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Sister.DataAccess": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.DataAccessUtils.Interface": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.DataFactory": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.DataStore.Factory": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.DomainManager": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.Infrastructure.GeoUtils": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.Infrastructure.Utils": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.InfrastructureData.DTO": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Sister.SubTypeManager": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MapConfig\\MapConfig.Interface\\MapConfig.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MapConfig\\MapConfig.Interface\\MapConfig.Interface.csproj",
+        "projectName": "Sister.MapConfig.Interface",
+        "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MapConfig\\MapConfig.Interface\\MapConfig.Interface.csproj",
+        "packagesPath": "C:\\Users\\K.Rrapaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MapConfig\\MapConfig.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\K.Rrapaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\vmtfs\\SisterNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\ConfigManagement\\ConfigManagement.Interface\\ConfigManagement.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MDReport\\MDReport.Interface\\MDReport.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MDReport\\MDReport.Interface\\MDReport.Interface.csproj",
+        "projectName": "Sister.MDReport.Interface",
+        "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MDReport\\MDReport.Interface\\MDReport.Interface.csproj",
+        "packagesPath": "C:\\Users\\K.Rrapaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\MDReport\\MDReport.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\K.Rrapaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\vmtfs\\SisterNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\TimeSeriesData\\TimeSeriesDataModel\\TimeSeriesDataModel.csproj": {
+                "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\TimeSeriesData\\TimeSeriesDataModel\\TimeSeriesDataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\TimeSeriesData\\TimeSeriesDataModel\\TimeSeriesDataModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\TimeSeriesData\\TimeSeriesDataModel\\TimeSeriesDataModel.csproj",
+        "projectName": "Sister.TimeSeriesDataModel",
+        "projectPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\TimeSeriesData\\TimeSeriesDataModel\\TimeSeriesDataModel.csproj",
+        "packagesPath": "C:\\Users\\K.Rrapaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\K.Rrapaj\\Desktop\\PROJECTS\\SWMS\\STMapClient\\src-core\\Server\\TimeSeriesData\\TimeSeriesDataModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\K.Rrapaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\vmtfs\\SisterNuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

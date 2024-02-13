@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup Label="Globals">
+		<SccProjectName>%24/STMapClient/src-core/Server/GridConfig/GridConfig.Interface</SccProjectName>
+		<SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+		<SccAuxPath>http://vmtfs:8080/tfs/defaultteamprojectcollection</SccAuxPath>
+		<SccLocalPath>.</SccLocalPath>
+		<Configurations>Debug;Release;NuGetPublish</Configurations>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UseWindowsForms>false</UseWindowsForms>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<RootNamespace>GridConfig.Interface</RootNamespace>
+		<AssemblyName>GridConfig.Interface</AssemblyName>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<Version>1.0.0</Version>
+		<Authors>Sistemi Territoriali</Authors>
+		<PackageId>Sister.GridConfig.Interface</PackageId>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Sister.InfrastructureData.DTO" Version="1.*" />
+		<PackageReference Include="Sister.DataAccess.Infrastructure" Version="1.*" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="ColumnSettingsDS.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>ColumnSettingsDS.xsd</DependentUpon>
+		</Compile>
+		<Compile Update="GridConfigSettingsDS.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>GridConfigSettingsDS.xsd</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="ColumnSettingsDS.xsd">
+			<Generator>MSDataSetGenerator</Generator>
+			<LastGenOutput>ColumnSettingsDS.Designer.cs</LastGenOutput>
+		</None>
+		<None Update="GridConfigSettingsDS.xsd">
+		  <Generator>MSDataSetGenerator</Generator>
+		  <LastGenOutput>GridConfigSettingsDS.Designer.cs</LastGenOutput>
+		</None>
+	</ItemGroup>
+</Project>
